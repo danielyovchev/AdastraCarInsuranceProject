@@ -1,6 +1,6 @@
 """Endpoints for policies service"""
 from fastapi import APIRouter
-from app.service import policy_service  # pylint: disable=import-error,no-name-in-module
+from app.service import policy_service
 
 router = APIRouter()
 

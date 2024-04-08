@@ -1,6 +1,6 @@
 """Endpoints for insurance companies services"""
 from fastapi import APIRouter
-from app.service import insurance_company_service  # pylint: disable=import-error,no-name-in-module
+from app.service import insurance_company_service
 
 router = APIRouter()
 

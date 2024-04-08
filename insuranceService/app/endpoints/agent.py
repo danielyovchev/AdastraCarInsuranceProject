@@ -1,6 +1,6 @@
 """Endpoint for agent data"""
 from fastapi import APIRouter
-from app.service import agent_service  # pylint: disable=import-error,no-name-in-module
+from app.service import agent_service
 
 router = APIRouter()
 

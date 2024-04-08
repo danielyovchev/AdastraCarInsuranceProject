@@ -1,6 +1,6 @@
 """Service for customer related operations"""
 from app.data.queries import get_customer_data, get_policy_data, get_insurance_company_data, \
-    get_cars_data, get_agents_data  # pylint: disable=import-error,no-name-in-module
+    get_cars_data, get_agents_data
 
 customer_df = get_customer_data()
 policies_df = get_policy_data()

@@ -1,6 +1,6 @@
 """Endpoints for customer related services"""
 from fastapi import APIRouter
-from app.service import customer_service  # pylint: disable=import-error,no-name-in-module
+from app.service import customer_service
 
 router = APIRouter()
 

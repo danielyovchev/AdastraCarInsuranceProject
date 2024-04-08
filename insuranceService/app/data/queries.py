@@ -1,5 +1,5 @@
 """Queries definition"""
-from app.data.db_utils import fetch_table_data  # pylint: disable=import-error,no-name-in-module
+from app.data.db_utils import fetch_table_data
 
 
 def get_cars_data():

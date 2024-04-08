@@ -1,5 +1,5 @@
 """Service for car related operations"""
-from app.data.queries import get_cars_data  # pylint: disable=import-error,no-name-in-module
+from app.data.queries import get_cars_data
 
 cars_df = get_cars_data()
 

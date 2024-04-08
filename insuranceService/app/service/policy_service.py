@@ -2,7 +2,7 @@
 from functools import reduce
 import pandas as pd
 from app.data.queries import get_policy_data, get_customer_data, get_cars_data, \
-    get_insurance_company_data, get_agents_data  # pylint: disable=import-error,no-name-in-module
+    get_insurance_company_data, get_agents_data
 
 df_customer = get_customer_data()
 df_car = get_cars_data()

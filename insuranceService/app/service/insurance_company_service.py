@@ -1,7 +1,7 @@
 """Service for operations related to insurance company"""
 import pandas as pd
 from app.data.queries import get_insurance_company_data, get_policy_data, \
-    get_agents_data  # pylint: disable=import-error,no-name-in-module
+    get_agents_data
 
 companies_df = get_insurance_company_data()
 policies_df = get_policy_data()
